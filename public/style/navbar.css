@@ -1,0 +1,152 @@
+ /* cambio color de letras */
+ .menu a:hover{
+     color: var(--letras-claras-color);
+ }
+
+ /* navbar */
+ .topheader{
+    background-color: var(--navbar-color);
+    left: 0;
+    top: 0;
+}
+
+.logo img{
+    max-width: 85px;
+    object-fit: cover;
+}
+
+.open-menu,
+.close-menu{
+    display: none;
+}
+
+ul{
+    list-style: none;
+}
+.menu-item, .chocolate{
+    text-decoration: none;
+    color:var(--letras-color);
+}
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0 auto;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.menu .menu-item , .menu .chocolate{
+    padding: 0px 26px;
+    font-size: 20px;
+}
+.menu .menu-item, .menu .chocolate {
+    line-height: 90px;
+}
+
+.instagram img{
+    max-width: 65px;
+    margin-right: 8px;
+}
+
+.menu li ul{
+    position: absolute;
+    display: none;
+}
+.menu li:hover >ul{
+    display: flex;
+    flex-direction: column;
+    z-index: 100; 
+    margin-left: -22px;
+}
+.chocolate-options{
+    text-decoration: none;
+    color:#C19A76;
+    padding: 15px;
+    background-color: var(--navbar-color);
+    font-size: 20px;
+    border-bottom: var(--letras-claras-color) 1px solid;
+}
+
+
+@media(max-width:900px){
+
+    .logo img{
+        max-width: 70px;
+    }
+
+    .instagram img{
+        max-width: 50px;
+    }
+
+    .menu{
+        background-color: var(--navbar-color);
+        flex-direction: column;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        align-items: center;
+        height: 100%;
+        overflow-y: auto;
+        z-index: 100;
+
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.5s;
+    
+    }
+    .menu .menu-item{
+        padding: 0;
+    }
+    .menu a {
+        line-height: 60px;
+    }
+    .open-menu{
+        display: flex;
+        border: none;
+        background-color: var(--navbar-color);
+        cursor: pointer;
+        margin-left: 16px;
+        
+    }
+    .close-menu{
+        display: block;
+        border: none;
+        background-color: var(--navbar-color); 
+        cursor: pointer;
+        align-self: flex-start;
+        padding: 38px 32px;
+    }
+    .open-menu i,
+    .close-menu i{
+        font-size: 2em;
+        color:var(--letras-color);
+    }
+
+    .menu_opened{
+        opacity: 1;
+        pointer-events: all;
+    }
+    .menu li ul {
+        position: absolute;
+    }
+
+    .chocolate-options{
+        padding: 0px 17px;
+        position: relative;
+    }
+   
+    
+
+    
+
+   
+
+    
+
+
+} 
