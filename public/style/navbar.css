@@ -103,7 +103,7 @@ ul{
         padding: 0;
     }
     .menu a {
-        line-height: 60px;
+        line-height: 80px;
     }
     .open-menu{
         display: flex;
