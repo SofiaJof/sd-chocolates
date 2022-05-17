@@ -1,13 +1,11 @@
 :root{
     --navbar-color: #41210C;
     --letras-color: #85614F;
-    /* --fondo-color: #C19A76; */
     --letras-claras-color:#d3ad89;
+    --etiquetas-color: #d0beb3;
+    --fondo-color: #906a57;
     
 
     
 }
 
-body{
-    background-color: var(--fondo-color);
-}

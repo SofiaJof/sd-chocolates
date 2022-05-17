@@ -5,6 +5,8 @@ const chocolatesController = require ("../controllers/chocolatesController");
 
 router.get("/", chocolatesController.chocolates);
 
+router.get("/marroc", chocolatesController.marroc);
+
 router.get("/ddl", chocolatesController.DDL);
 
 router.get("/frutosSecos", chocolatesController.frutosSecos);
