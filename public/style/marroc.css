@@ -1,0 +1,158 @@
+body{
+    background: var(--etiquetas-color);
+   }      
+   
+   main {
+     position: relative;
+     height: 47%;
+   }
+  
+   main {
+     background: var(--etiquetas-color);
+     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+     font-size: 14px;
+     color: #000;
+     margin: 0;
+     padding: 0;
+     margin-top: 41px;
+   }
+  
+   .swiper {
+     width: 100%;
+     padding-top: 50px;
+     padding-bottom: 50px;
+   }
+  
+   .swiper-slide {
+     background-position: center;
+     background-size: cover;
+     width: 300px;
+     height: 300px;
+   }
+  
+   .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 242px;
+    object-fit: cover;
+    margin-left: 1px;
+    padding: 19px;
+    margin-bottom: 15px;
+   }
+  
+   .swiper-pagination-bullet-active  {
+    background-color: #41210C !important; 
+  }
+  
+  
+  .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    margin-left:7px;
+  }
+
+
+   h3{
+    font-size: 20px;
+    color: var(--navbar-color);
+}
+ p{
+    font-size: 14px;
+    color: var(--navbar-color);
+}
+  
+  /* titulo */
+  
+  .title h1{
+    font-size: 17px;
+    padding: 18px;
+    background-image: url(../images/istockphoto-905982342-612x612.jpg);
+    margin-bottom: 22px;
+  }
+  /* footer */
+
+  .footer-container{
+      margin-top: 141px;
+      padding: 13px;
+      max-width: 70%;
+      margin-left: 52px;
+  }
+  
+  @media(min-width:700px){
+    main {
+      height: 72%;    
+    }
+   
+    .swiper-slide img {
+     width: 95%;
+     height: 370px;
+     margin-left: 18px;
+     margin-bottom: 24px;
+    }
+   /* titulo */
+   .title h1{
+     font-size: 20px;
+   }
+   /* footer */
+
+   .footer-container{
+    margin-top: 155px;
+   }
+  }
+  
+  
+  @media(min-width:1024px){
+          main {
+          height: 62%;    
+        }
+  
+         .swiper-slide img {
+          width: 70%;
+          height: 425px;
+          margin-left: 153px;
+          margin-bottom: 32px;
+          padding: 14px;
+         }
+        
+        
+        /* titulo */
+   
+        .title h1{
+          font-size: 26px;
+          margin-top: 58px;
+          margin-bottom: 55px;
+         }
+         /* footer */
+
+        .footer-container{
+          margin-top: 210px;
+        }
+  
+      }
+  
+      @media(min-width:1440px){
+        main {
+            height: 76%;    
+          }  
+  
+        .swiper-slide img {
+          width: 60%;
+          height: 560px;
+          margin-left: 314px;
+          margin-bottom: 32px;
+        }
+       
+       
+       /* titulo */
+  
+       .title h1{
+         font-size: 26px;
+         margin-top: 78px;
+         margin-bottom: 85px;
+        }
+        .footer-container{
+            margin-top: 237px;
+          }
+  
+     }
+     
+  
+      

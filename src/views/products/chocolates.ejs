@@ -2,12 +2,34 @@
 <html lang="en">
 <head>
     <%- include ("../partials/head") %>
+    <link rel="stylesheet" href ="../style/chocolates.css">
 
 </head>
 <body>
     <header class="topheader">
         <%- include ("../partials/navbar") %>
       </header>
+
+      <main>
+        <div class="all-products">
+            <section class="products">
+          <%  for (let i=0; i<chocolates.length ; i++) { %>
+          
+              <article class="products-box">
+                  <div class="products-item">
+                  <img src = "/images/<%= chocolates[i].image %>">
+                  <button><a href="/chocolates/<%= chocolates[i].enlace %>"><%= chocolates[i].name %></a></button>
+                  <!-- <h3><%= chocolates[i].name %></h3>
+                  <p class="descripcion"><%= chocolates[i].description %> </p> -->
+                  </div> 
+              </article>
+        
+          <% } %>
+      </section>
+      </div>
+  </main>
+
+  <%- include ("../partials/footer") %>
     
 </body>
 </html>

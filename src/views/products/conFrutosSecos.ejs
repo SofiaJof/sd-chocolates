@@ -2,12 +2,45 @@
 <html lang="en">
 <head>
     <%- include ("../partials/head") %>
+    <link rel="stylesheet" href ="../style/opciones.css">
+    <script src="../js/opciones.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 </head>
 <body>
     <header class="topheader">
         <%- include ("../partials/navbar") %>
       </header>
+      <main>
+        <section class="destacados">
+            <div class="title">
+                <h1> Con frutos secos </h1>
+            </div>
+        </section>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="/images/almendras.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/almendras2.JPG" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/mani.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/mani2.jpg" />
+              </div>
+             
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+      </main>
+       
+      <%- include ("../partials/footer") %>
     
 </body>
 </html>

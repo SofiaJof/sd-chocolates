@@ -1,27 +1,83 @@
 [
     {
         "id": 1,
-        "name": "100gr",
-        "description": "Bolsas de 100gr",
-        "price":"$320",
-        "category": "presentacion",
-        "image": "100gr.jpg"
+        "name": "Marroc",
+        "description": "Dos capas de chocolate con leche y la del medio blanco, con praliné de maní",
+        "category": "marroc",
+        "image": "marroc-ch.jpg",
+        "enlace":"marroc"
       },
+    
       {
         "id": 2,
-        "name": "250gr",
-        "description": "Caja de 250gr",
-        "price":"$850",
-        "category": "presentacion",
-        "image": "250gr.jpg"
+        "name": "Tres Chocolates",
+        "description": "Tres capas de distintos chocolates.Amargo,blanco y leche, con pralinéde maní",
+        "category": "marroc",
+        "image": "tresch.jpg",
+        "enlace":"marroc"
       },
+     
       {
         "id": 3,
-        "name": "1kg",
-        "description": "Caja de un kilo",
-        "price":"$3.300",
-        "category": "presentacion",
-        "image": "1kg.jpg"
+        "name": "Bombones",
+        "description": "Rellenos con dulce de leche con el chocolate que más te guste",
+        "category": "dulceDeLeche",
+        "image": "bombones.jpg",
+        "enlace":"ddl"
+      },
+     
+      {
+        "id": 4,
+        "name": "Milhojas",
+        "description": "Capas intercaladas de dulce de leche y chocolate",
+        "category": "dulceDeLeche",
+        "image": "milhojas-ch.jpg",
+        "enlace":"ddl"
+      },
+      
+      {
+        "id": 5,
+        "name": "Con almendras",
+        "description": "Chocolate con almendras caramelizadas",
+        "category": "frutosSecos",
+        "image": "almendras2.jpg",
+        "enlace":"frutosSecos"
+      },
+      
+      {
+        "id": 6,
+        "name": "Con maní",
+        "description": "Barritas de chocolate con maní",
+        "category": "frutosSecos",
+        "image": "mani2.jpg",
+        "enlace":"frutosSecos"
+      },
+      {
+        "id": 7,
+        "name": "Con Oreo",
+        "description": "Capas de chocolate con leche con un relleno de galletitas oreos",
+        "category": "galletitas",
+        "image": "oreo.jpg",
+        "enlace":"galletitas" 
+      },
+    
+      {
+        "id": 8,
+        "name": "Oreos bañadas",
+        "description": "Las típicas galletitas bañadas en chocolate",
+        "category": "galletitas",
+        "image": "bañadas.jpg",
+        "enlace":"galletitas" 
+      },
+      
+      {
+        "id": 9,
+        "name": "Chocotorta",
+        "description": "Barras de chocolate con leche rellenas de la clásica torta",
+        "category": "galletitas",
+        "image": "chocotorta2.jpg",
+        "enlace":"galletitas" 
       }
+
 
 ]

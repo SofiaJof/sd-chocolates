@@ -22,6 +22,11 @@ app.use("/about", aboutRouter);
 app.use("/contact", contactRouter); 
 
 
+//prueba
+const pruebaRouter = require("./routes/prueba");
+app.use("/prueba",pruebaRouter);
+
+
 
 app.listen(3000, ()=>{
     console.log("Servidor corriendo!!!")

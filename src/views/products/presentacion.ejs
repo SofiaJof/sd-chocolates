@@ -13,14 +13,14 @@
       <main>
       <div class="all-products">
           <section class="products">
-        <%  for (let i=0; i<chocolates.length ; i++) { %>
+        <%  for (let i=0; i<presentacion.length ; i++) { %>
         
             <article class="products-box">
                 <div class="products-item">
-                <img src = "/images/<%= chocolates[i].image %>">
-                <h3><%= chocolates[i].name %></h3>
-                <p class="descripcion"><%= chocolates[i].description %> </p>
-                <h5 class="precio"><%= chocolates[i].price %></h5>
+                <img src = "/images/<%= presentacion[i].image %>">
+                <h3><%= presentacion[i].name %></h3>
+                <p class="descripcion"><%= presentacion[i].description %> </p>
+                <h5 class="precio"><%= presentacion[i].price %></h5>
                 </div> 
             </article>
       

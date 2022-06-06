@@ -1,13 +1,50 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <%- include ("../partials/head") %>
+    <link rel="stylesheet" href ="../style/marroc.css">
+    <script src="../js/marroc.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 </head>
 <body>
     <header class="topheader">
         <%- include ("../partials/navbar") %>
       </header>
+
+      <main>
+        <section class="destacados">
+            <div class="title">
+                <h1> Marroc </h1>
+            </div>
+        </section>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="/images/marroc-ch.jpg" />
+                <h3>Marroc</h3>
+                <p class="descripcion">Dos capas de chocolate con leche y la del medio blanco, con praliné de maní </p>
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/marroc-ch2.JPG" />
+                <h3>Marroc</h3>
+                <p class="descripcion">Dos capas de chocolate con leche y la del medio blanco, con praliné de maní </p>
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/tresch.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/tresch2.jpg" />
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+      </main>
+       
+      <%- include ("../partials/footer") %>
+
     
 </body>
 </html>

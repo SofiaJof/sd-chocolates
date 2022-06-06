@@ -18,9 +18,9 @@
     padding-top: 15px;
 }
 .destacado-item img {
-    width: 80%;
+    width: 75%;
     object-fit: cover;
-    margin-top: 40px;
+    margin-top: 32px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -73,6 +73,9 @@ span{
     .destacado-item img {
         width: 70%;
     }
+    .text-item {
+        left: 44%;
+    }
 
     .text-item h2{
         font-size: 32px;
@@ -98,8 +101,13 @@ span{
     .destacados-container{
         display: flex;
         flex-wrap: nowrap;
-        padding-right: 2px;
+        max-width: 96%;
+        margin-left: 27px;
+        
      }
+     .text-item {
+        left: 36%;
+    }
      .text-item h2{
         font-size: 28px;
     }
