@@ -29,6 +29,9 @@ body{
 .products-item h5{
     padding-bottom: 20px;
 }
+.products-item h3{
+    font-size: 16px;
+}
 /* boton */
 .products-item a{
     text-decoration: none;
@@ -42,8 +45,20 @@ body{
     margin-bottom: 14px;
 }
 .products-item button:hover{
-    background-color: var(--fondo-color);
+    /* background-color: var(--fondo-color); */
+    background-color: var(--navbar-color);
+    
 }
+.products-item a:hover{
+    color: var(--letras-claras-color);
+}
+/* titulo */
+.title h1{
+    font-size: 17px;
+    padding: 18px;
+    background-image: url(../images/istockphoto-905982342-612x612.jpg);
+    margin-bottom: 22px;
+  }
 
 
 
@@ -63,14 +78,18 @@ body{
       padding-left: 10px;
    }
    .products-box img{
-       height: 85%;
+       height: 75%;
        object-fit: cover;
-       margin-bottom: 11px;
+       margin-top: 0px;
+       margin-bottom: 17px;
    }
    .products-item{
        height: 313px;
    }
-   
+   /* titulo */
+ .title h1{
+    font-size: 20px;
+  }
   
   
 }
@@ -78,7 +97,7 @@ body{
 @media(min-width:1024px){
     .all-products{
         max-width: 90%;
-        margin-left: 34px;
+        margin-left: 32px;
     }
     .products{
         max-width: 100%;
@@ -87,18 +106,48 @@ body{
         max-width: 30%;
     }
     .products-box img{
-        max-width: 98%;
         object-fit: cover;
+        height: 250px;
     }
     .products-item{
         max-width: 100%;
         height: 90%;
     }
     .products-item h3, .products-item h5{
-        font-size: 24px;
+        font-size: 20px;
     }
     .products-item p{
         font-size: 18px;
     }
+    .products-item button{
+        font-size: 18px;
+    }
+    /* titulo */
+    .title h1{
+        font-size: 26px;
+        margin-top: 58px;
+        margin-bottom: 55px;
+       }
     
+}
+
+@media(min-width:1440px){
+    .all-products{
+        max-width: 88%;
+        margin-left: 98px;
+    }
+    .products-item button{
+        font-size: 20px;
+    }
+    .products-box img{
+        margin-bottom: 26px;
+        height: 300px;
+    }
+     /* titulo */
+     .title h1{
+        font-size: 30px;
+        margin-top: 78px;
+        margin-bottom: 70px;
+       }
+
 }

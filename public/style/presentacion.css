@@ -25,6 +25,14 @@ body{
 .products-item h5{
     padding-bottom: 20px;
 }
+/* titulo */
+
+.title h1{
+    font-size: 17px;
+    padding: 18px;
+    background-image: url(../images/istockphoto-905982342-612x612.jpg);
+    margin-bottom: 22px;
+  }
 
 
 @media(min-width:768px){
@@ -34,7 +42,8 @@ body{
    .products{
        display: flex;
        flex-wrap: nowrap;
-       margin-right: 32px;
+       margin-left: 18px;
+       max-width: 90%;
    }
    .products-item{
        max-width: 100%;
@@ -43,15 +52,20 @@ body{
    .products-item h3, .products-item h5{
        font-size: 20px;
    }
+
+    /* titulo */
+ .title h1{
+    font-size: 20px;
+  }
 }
 
 @media(min-width:1024px){
     .all-products{
-        margin-top: 100px;
+        margin-top: 75px;
     }
     .products{
-        max-width: 90%;
-        margin-left: 39px;
+        max-width: 86%;
+        margin-left: 50px;
     }
     .products-item{
         max-width: 90%;
@@ -60,5 +74,24 @@ body{
     .products-item h3, .products-item h5{
         font-size: 24px;
     }
+    /* titulo */
+    .title h1{
+        font-size: 26px;
+        margin-top: 58px;
+        margin-bottom: 55px;
+       }
     
+}
+@media (min-width: 1440px) {
+    .products{
+        max-width: 85%;
+        margin-left: 102px;
+    }
+
+     /* titulo */
+     .title h1{
+        font-size: 30px;
+        margin-top: 78px;
+        margin-bottom: 70px;
+       }
 }

@@ -1,7 +1,7 @@
 
 .carousel-item img{
     width: 100%;
-    height:250px;
+    height:260px;
     object-fit: cover;
     
 }
@@ -9,7 +9,7 @@
 @media(min-width:768px){
     .carousel-item img{
         width: 100%;
-        height:415px;    
+        height:440px;    
         object-fit: cover;
     }
 }
@@ -17,7 +17,7 @@
 @media(min-width: 1024px){
 .carousel-item img{
     width: 100%;
-    height: 590px;
+    height: 610px;
     object-fit: cover;
 }
 

@@ -1,4 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color: var(--letras-color);
+    padding-top: 25px;
+    height: 650px;
+} 
 .text-container {
-    padding: 2px;
+    padding: 4px;
+    /* background-image: url(../images/istockphoto-906002266-612x612.jpg); */
+    opacity: 90%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    max-width: 87%;
+    margin-left: 21px;
+}
+.text-container h2{
+    color: var(--etiquetas-color);
+    padding: 10px;
+    margin-top: 6px;
+    text-align: center;
+}
+.text-container p{
+    color: var(--etiquetas-color);
+    font-size: 14px;
+    /* padding: 73px 17px 17px 17px; */
+    padding: 10px;
+    /* margin-top: -69px; */
+    
+}
+/* .image{
+    text-align: center;
+    background-image: url(../images/fondo-imag.jpg);
+    max-width: 50%;
+    border-radius: 90%;
+    margin-left: 80px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.image img{
+    width: 78%;
+    border-radius: 50%;
+    margin-top: 19px;
+    position: relative;
+    z-index: 3;
+} */
+.footer-container {
+    margin-top: 0px;
+}
+
+@media(min-width:700px){
+   
+    .text-container {
+        max-width: 80%;
+        margin-left: 65px;
+        margin-top: 40px;
+    }
+    .text-container p{
+        font-size: 16px;
+    }
+    
+    .image{
+        height: 106px;
+    }
+        
+    .image img{
+        width: 35%;
+        margin-right: 56px;
+    }    
+    
+}
+@media(min-width:1024px){
+   
+    .text-container {
+        margin-left: 151px;
+        max-width: 72%;
+    }
+    .text-container p{
+        font-size: 22px;
+        padding: 32px;
+    }
+    
+    .image{
+        height: 115px;
+    }
+        
+    .image img{
+        width: 35%;
+        margin-right: 56px;
+    }    
+   
+}
+@media(min-width:1440px){
+     main{
+        height: 780px;
+    }  
+    .text-container {
+        margin-left: 318px;
+        margin-top: 80px;
+        max-width: 60%;
+    }
+    .text-container h2{
+        font-size: 36px;
+    }
+    .text-container p{
+        font-size: 26px;
+    }
+    .image{
+        height: 122px;
+    }    
+    .image img{
+        width: 28%;
+        margin-right: 62px;
+    }    
+    
 
 }

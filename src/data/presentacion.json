@@ -3,7 +3,7 @@
         "id": 1,
         "name": "100gr",
         "description": "Bolsas de 100gr",
-        "price":"$320",
+        "price":"$400",
         "category": "presentacion",
         "image": "100gr.jpg"
       },
@@ -11,7 +11,7 @@
         "id": 2,
         "name": "250gr",
         "description": "Caja de 250gr",
-        "price":"$850",
+        "price":"$1.000",
         "category": "presentacion",
         "image": "250gr.jpg"
       },
@@ -19,7 +19,7 @@
         "id": 3,
         "name": "1kg",
         "description": "Caja de un kilo",
-        "price":"$3.300",
+        "price":"$4.000",
         "category": "presentacion",
         "image": "1kg.jpg"
       }

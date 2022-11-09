@@ -13,19 +13,19 @@
       <main>
         <section class="destacados">
             <div class="title">
-                <h1> Chocolates </h1>
+                <!-- <h1> Chocolates </h1> -->
             </div>
         </section>
         <div class="all-products">
             <section class="products">
-          <%  for (let i=0; i<chocolates.length ; i++) { %>
+          <%  for (let i=0; i<buscado.length ; i++) { %>
           
               <article class="products-box">
                   <div class="products-item">
-                  <img src = "/images/<%= chocolates[i].image %>">
-                  <h3><%= chocolates[i].name.toUpperCase() %></h3>
-                  <button><a href="/chocolates/<%= chocolates[i].enlace %>"><%= chocolates[i].category %></a></button>
-                  <!-- <p class="descripcion"><%= chocolates[i].description %> </p>  -->
+                  <img src = "/images/<%= buscado[i].image %>">
+                  <h3><%= buscado[i].name.toUpperCase() %></h3>
+                  <button><a href="/chocolates/<%= buscado[i].enlace %>"><%= buscado[i].category %></a></button>
+                  
                   </div> 
               </article>
         

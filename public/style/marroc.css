@@ -4,7 +4,7 @@ body{
    
    main {
      position: relative;
-     height: 47%;
+     height: 62%;
    }
   
    main {
@@ -14,7 +14,7 @@ body{
      color: #000;
      margin: 0;
      padding: 0;
-     margin-top: 41px;
+     margin-top: -9px;
    }
   
    .swiper {
@@ -33,7 +33,7 @@ body{
    .swiper-slide img {
     display: block;
     width: 100%;
-    height: 242px;
+    height: 224px;
     object-fit: cover;
     margin-left: 1px;
     padding: 19px;
@@ -47,16 +47,21 @@ body{
   
   .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
     margin-left:7px;
+    bottom: 36px !important;
   }
 
 
    h3{
-    font-size: 20px;
+    font-size: 18px;
     color: var(--navbar-color);
+    margin-top: -22px;
+    margin-left: 19px;
 }
  p{
     font-size: 14px;
     color: var(--navbar-color);
+    margin-left: 19px;
+    max-width: 88%;
 }
   
   /* titulo */
@@ -72,24 +77,37 @@ body{
   .footer-container{
       margin-top: 141px;
       padding: 13px;
-      max-width: 70%;
       margin-left: 52px;
   }
   
   @media(min-width:700px){
     main {
-      height: 72%;    
+      height: 82%;    
     }
    
     .swiper-slide img {
-     width: 95%;
-     height: 370px;
-     margin-left: 18px;
-     margin-bottom: 24px;
+      width: 80%;
+      height: 370px;
+      margin-left: 72px;
     }
+    h3{
+      font-size: 20px;
+      margin-left: 88px;
+  }
+   p{
+      font-size: 16px;
+      margin-left: 88px;
+      max-width: 79%;
+  }
+  .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 4px !important;
+  }
+
+
    /* titulo */
    .title h1{
      font-size: 20px;
+     margin-bottom: 30px;
    }
    /* footer */
 
@@ -101,7 +119,7 @@ body{
   
   @media(min-width:1024px){
           main {
-          height: 62%;    
+          height: 72%;    
         }
   
          .swiper-slide img {
@@ -111,6 +129,15 @@ body{
           margin-bottom: 32px;
           padding: 14px;
          }
+
+         h3{
+          font-size: 22px;
+          margin-left: 163px;
+      }
+       p{
+          font-size: 18px;
+          margin-left: 163px;
+      }
         
         
         /* titulo */
@@ -130,27 +157,36 @@ body{
   
       @media(min-width:1440px){
         main {
-            height: 76%;    
-          }  
-  
+          height: 87%;    
+        }
+      
         .swiper-slide img {
-          width: 60%;
+          width: 56%;
           height: 560px;
-          margin-left: 314px;
+          margin-left: 320px;
           margin-bottom: 32px;
         }
+        h3{
+          font-size: 27px;
+          margin-left: 327px;
+      }
+       p{
+          font-size: 23px;
+          margin-left: 327px;
+      }
+        
        
        
        /* titulo */
   
        .title h1{
-         font-size: 26px;
+         font-size: 30px;
          margin-top: 78px;
-         margin-bottom: 85px;
+         margin-bottom: 70px;
         }
-        .footer-container{
-            margin-top: 237px;
-          }
+       .footer-container span{
+         margin-left: 304px;
+       }
   
      }
      

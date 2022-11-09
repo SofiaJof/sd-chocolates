@@ -1,80 +1,80 @@
 [
     {
         "id": 1,
-        "name": "Marroc",
+        "name": "marroc",
         "description": "Dos capas de chocolate con leche y la del medio blanco, con praliné de maní",
-        "category": "marroc",
+        "category": "Marroc",
         "image": "marroc-ch.jpg",
         "enlace":"marroc"
       },
     
       {
         "id": 2,
-        "name": "Tres Chocolates",
+        "name": "tres chocolates",
         "description": "Tres capas de distintos chocolates.Amargo,blanco y leche, con pralinéde maní",
-        "category": "marroc",
+        "category": "Marroc",
         "image": "tresch.jpg",
         "enlace":"marroc"
       },
      
       {
         "id": 3,
-        "name": "Bombones",
+        "name": "bombones",
         "description": "Rellenos con dulce de leche con el chocolate que más te guste",
-        "category": "dulceDeLeche",
+        "category": "Con dulce de leche",
         "image": "bombones.jpg",
         "enlace":"ddl"
       },
      
       {
         "id": 4,
-        "name": "Milhojas",
+        "name": "milhojas",
         "description": "Capas intercaladas de dulce de leche y chocolate",
-        "category": "dulceDeLeche",
+        "category": "Con dulce de leche",
         "image": "milhojas-ch.jpg",
         "enlace":"ddl"
       },
       
       {
         "id": 5,
-        "name": "Con almendras",
+        "name": "almendras",
         "description": "Chocolate con almendras caramelizadas",
-        "category": "frutosSecos",
+        "category": "Con frutos secos",
         "image": "almendras2.jpg",
         "enlace":"frutosSecos"
       },
       
       {
         "id": 6,
-        "name": "Con maní",
+        "name": "mani",
         "description": "Barritas de chocolate con maní",
-        "category": "frutosSecos",
+        "category": "Con frutos secos",
         "image": "mani2.jpg",
         "enlace":"frutosSecos"
       },
       {
         "id": 7,
-        "name": "Con Oreo",
+        "name": "oreo",
         "description": "Capas de chocolate con leche con un relleno de galletitas oreos",
-        "category": "galletitas",
+        "category": "Con galletitas",
         "image": "oreo.jpg",
         "enlace":"galletitas" 
       },
     
       {
         "id": 8,
-        "name": "Oreos bañadas",
+        "name": "oreos bañadas",
         "description": "Las típicas galletitas bañadas en chocolate",
-        "category": "galletitas",
+        "category": "Con galletitas",
         "image": "bañadas.jpg",
         "enlace":"galletitas" 
       },
       
       {
         "id": 9,
-        "name": "Chocotorta",
+        "name": "chocotorta",
         "description": "Barras de chocolate con leche rellenas de la clásica torta",
-        "category": "galletitas",
+        "category": "Con galletitas",
         "image": "chocotorta2.jpg",
         "enlace":"galletitas" 
       }

@@ -13,5 +13,7 @@ router.get("/frutosSecos", chocolatesController.frutosSecos);
 
 router.get("/galletitas", chocolatesController.galletitas);
 
+router.get("/search", chocolatesController.search);
+
 
 module.exports = router;

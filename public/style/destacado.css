@@ -39,7 +39,8 @@
 .text-item{
     position: absolute;
     top: 50%;
-    left: 40%;    
+    left: 38%;    
+    max-width: 30%;
 }
 .text-item h2 a{
     text-decoration: none;
@@ -71,10 +72,11 @@ span{
         padding-top: 26px;
     }
     .destacado-item img {
-        width: 70%;
+        width: 60%;
     }
     .text-item {
         left: 44%;
+        max-width: 16%;
     }
 
     .text-item h2{
@@ -101,12 +103,12 @@ span{
     .destacados-container{
         display: flex;
         flex-wrap: nowrap;
-        max-width: 96%;
-        margin-left: 27px;
-        
+        max-width: 90%;
+        margin-left: 51px;  
      }
      .text-item {
         left: 36%;
+        max-width: 35%;
     }
      .text-item h2{
         font-size: 28px;
@@ -120,5 +122,12 @@ span{
         margin-top: 80px;
         margin-left: 106px; 
     }
+
+}
+@media(min-width:1440px){
+    .destacados-container{
+        max-width: 88%;
+        margin-left: 96px;  
+     }
 
 }

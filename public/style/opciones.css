@@ -4,7 +4,6 @@ body{
  
  main {
    position: relative;
-   height: 100%;
  }
 
  main {
@@ -14,7 +13,7 @@ body{
    color: #000;
    margin: 0;
    padding: 0;
-   margin-top: 41px;
+   margin-top: -9px;
  }
 
  .swiper {
@@ -33,11 +32,11 @@ body{
  .swiper-slide img {
   display: block;
   width: 100%;
-  height: 242px;
+  height: 224px;
   object-fit: cover;
   margin-left: 1px;
   padding: 19px;
-  margin-bottom: 15px;
+  margin-bottom: 8px;
  }
 
  .swiper-pagination-bullet-active  {
@@ -47,6 +46,21 @@ body{
 
 .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
   margin-left:7px;
+  bottom: 26px !important;
+}
+
+h3{
+  font-size: 18px;
+  color: var(--navbar-color);
+  margin-top: -22px;
+  margin-left: 19px;
+}
+p{
+  font-size: 14px;
+  color: var(--navbar-color);
+  margin-left: 19px;
+  max-width: 88%;
+  margin-bottom: 41px;
 }
 
 /* titulo */
@@ -71,16 +85,26 @@ body{
   }
  
   .swiper-slide img {
-   width: 95%;
+   width: 85%;
    height: 370px;
-   margin-left: 18px;
+   margin-left: 53px;
    margin-bottom: 24px;
   }
  
  
  .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
    margin-left:9px;
+   bottom: 16px !important;
  }
+
+ h3{
+  font-size: 20px;
+  margin-left: 70px;
+}
+p{
+  font-size: 16px;
+  margin-left: 70px;
+}
  
  /* titulo */
  
@@ -96,13 +120,20 @@ body{
         width: 70%;
         height: 425px;
         margin-left: 153px;
-        margin-bottom: 32px;
+        margin-bottom: 19px;
         padding: 14px;
        }
+       h3{
+        font-size: 22px;
+        margin-left: 163px;
+    }
+     p{
+        font-size: 18px;
+        margin-left: 163px;
+    }
       
       
       /* titulo */
- 
       .title h1{
         font-size: 26px;
         margin-top: 58px;
@@ -114,20 +145,27 @@ body{
     @media(min-width:1440px){
 
       .swiper-slide img {
-        width: 60%;
+        width: 56%;
         height: 560px;
-        margin-left: 314px;
-        margin-bottom: 32px;
+        margin-left: 320px;
+        margin-bottom: 20px;
       }
-      
+     h3{
+        font-size: 27px;
+        margin-left: 332px;
+    }
+     p{
+        font-size: 23px;
+        margin-left: 332px;
+        margin-bottom: 40px;
+    } 
      
      
      /* titulo */
-
      .title h1{
-       font-size: 26px;
+       font-size: 30px;
        margin-top: 78px;
-       margin-bottom: 85px;
+       margin-bottom: 70px;
       }
 
    }
